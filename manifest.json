@@ -1,0 +1,15 @@
+{
+    "name": "Table to CSV",
+    "version": "1.0",
+    "description": "Extracts table data from a webpage and downloads it as CSV.",
+    "manifest_version": 3,
+    "permissions": [
+      "activeTab",
+      "scripting",
+      "downloads"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
